@@ -44,6 +44,7 @@ __z_complete
 
 function __z_on_variable_pwd --on-variable PWD
     __z_add
+    __z -c >/dev/null 2>&1
 end
 
 function __z_uninstall --on-event z_uninstall
