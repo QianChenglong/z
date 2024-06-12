@@ -65,7 +65,7 @@ function __z -d "Jump to a recent directory."
                 cmd = "sort -nr"
                 for( x in matches ) {
                     if( matches[x] ) {
-                        printf "%-10s %s\n", matches[x], x | cmd
+                        printf "%10s %s\n", matches[x], x | cmd
                     }
                 }
             } else {
